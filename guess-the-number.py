@@ -28,10 +28,13 @@ while(playernumber != number):
         print("Liczba jest za duża")
     if(playernumber < number):
         print("Liczba jest za mała")
-    
+
     attemps += 1
     print("Liczba prób {}".format(attemps))
     playernumber = get_number()
+    
+
+
     
 
 if(playernumber == number):
